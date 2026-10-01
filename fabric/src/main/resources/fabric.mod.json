@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "Nexi499"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/project/flourish-nexi499",
+        "sources": "https://github.com/nexi449/Flourish",
+        "issues": "https://github.com/nexi449/Flourish/issues"
+    },
+    "license": "ARR",
+    "icon": "${mod_id}.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [ ],
+        "modmenu": [
+            "com.nexi499.flourish.client.FlourishMenu"
+        ]
+    },
+    "mixins": [
+        "${mod_id}.mixins.json"
+    ],
+    "depends": {
+        "minecraft": ">=1.21.1 <1.21.12"
+    },
+    "recommends": {
+        "modmenu": ">=11.0.3"
+    }
+}
+  

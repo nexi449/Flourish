@@ -1,0 +1,12 @@
+# Ignore everything by default.
+*
+!*/
+!/.gitignore
+
+# Keep only loader source and resource trees.
+!/fabric/src/
+!/fabric/src/**
+!/neoforge/src/
+!/neoforge/src/**
+!/quilt/src/
+!/quilt/src/**

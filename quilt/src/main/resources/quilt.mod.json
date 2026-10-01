@@ -1,0 +1,42 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "${mod_id}",
+        "version": "${version}",
+        "metadata": {
+            "name": "${mod_name}",
+            "description": "${description}",
+            "contributors": {
+                "${mod_author}": "Owner"
+            },
+            "contact": {
+                "homepage": "https://modrinth.com/project/flourish-nexi499",
+                "sources": "https://github.com/nexi449/Flourish",
+                "issues": "https://github.com/nexi449/Flourish/issues"
+            },
+            "license": "${license}",
+            "icon": "flourish.png"
+        },
+        "entrypoints": {
+            "modmenu": [
+                "com.nexi499.flourish.client.FlourishMenu"
+            ]
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.30.1"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.21.1 <1.21.12"
+            },
+            {
+                "id": "java",
+                "versions": ">=21"
+            }
+        ]
+    },
+    "mixin": "flourish.mixins.json"
+}

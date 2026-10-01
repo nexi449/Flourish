@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.nexi499.flourish.mixin",
+    "refmap": "flourish.refmap.json",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "FlowerGrowthMixin"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
