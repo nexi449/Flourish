@@ -1,4 +1,4 @@
-project = "Armor Visibility"
+project = "Flourish"
 author = "nexi449"
 
 extensions = []
