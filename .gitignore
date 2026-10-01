@@ -2,6 +2,7 @@
 *
 !*/
 !/.gitignore
+!/LICENSE.md
 
 # Keep only loader source and resource trees.
 !/fabric/src/
