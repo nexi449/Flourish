@@ -4,6 +4,7 @@
         "group": "${group}",
         "id": "${mod_id}",
         "version": "${version}",
+        "intermediate_mappings": "net.fabricmc:intermediary",
         "metadata": {
             "name": "${mod_name}",
             "description": "${description}",
@@ -15,7 +16,11 @@
                 "sources": "https://github.com/nexi449/Flourish",
                 "issues": "https://github.com/nexi449/Flourish/issues"
             },
-            "license": "${license}",
+            "license": {
+                "name": "All Rights Reserved",
+                "id": "LicenseRef-ARR",
+                "url": "https://github.com/nexi449/Flourish/blob/main/LICENSE.md"
+            },
             "icon": "flourish.png"
         },
         "entrypoints": {
